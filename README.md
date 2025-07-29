@@ -1,112 +1,82 @@
-# HR Analytics Dashboard – Tableau Project
+# hr-analytics-dashboard
 
-![Dashboard Preview](Dashboard_Screenshot.png)
-
-Welcome to my HR Analytics Dashboard project, built using Tableau and a cleaned HR dataset. This interactive visualization provides meaningful insights into employee attrition, income trends, and department performance to help organizations make informed HR decisions.
+Tableau HR analytics dashboard with attrition forecasting and demographic insights using a data sample from **Yello**.
 
 ---
 
-## Project Overview
+![Dashboard Screenshot](Dashboard_Screenshot.png)
 
-This project explores:
-
-- Key HR metrics like attrition rate, employee count, and monthly income
-- Demographic breakdowns by gender and age
-- Job role and department-wise performance insights
-- **Forecasting** to support **predictive analysis** on attrition trends
-
-The dashboard uses a bold **black-and-yellow** highlight color scheme to draw attention to KPIs and forecast indicators.
+🔗 **[View Interactive Dashboard on Tableau Public](https://public.tableau.com/views/HR_Analytics_Dashboard_17538230355350/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
 ---
 
-## 🗂 Files Included
+## 🏢 About the Company
 
-| File                              | Description                                                      |
-|-----------------------------------|------------------------------------------------------------------|
-| HR_Analytics_Dashboard.twbx       | Packaged Tableau Workbook file with full dashboard               |
-| HR_Data_Cleaned_Table_1.xlsx      | One of the cleaned Excel tables used as data source              |
-| HR_Data_Cleaned_Table_2.xlsx      | One of the cleaned Excel tables used as data source              |
-| HR_Data_Cleaned_Table_3.xlsx      | One of the cleaned Excel tables used as data source              |
-| Dashboard_Screenshot.png          | Preview image of the final dashboard                             |
-| README.md                         | This documentation file                                          |
+**Yello** is a mid-sized company with a diverse workforce across departments like **Sales**, **Research & Development (R&D)**, and **Human Resources**.  
+Employees vary in roles, educational backgrounds, and career paths.
+
+To support effective **strategic planning**, Yello aims to analyze salary trends, workforce demographics, and retention patterns.  
+By leveraging **data-driven insights**, the company seeks to **improve decisions related to compensation, training, and employee retention**.
 
 ---
 
-## Forecasting & Predictive Analysis
+## 🧠 Problem Statement
 
-The dashboard includes forecasting models built with Tableau’s native forecasting (exponential smoothing):
+**Yello** requires an in-depth analysis of employee income trends and workforce demographics to enhance financial planning and retention strategies.
 
-- Visualize **monthly attrition rate projections**
-- Anticipate **future spikes or drops** in attrition
-- Align HR strategies with **data-driven insights**
-- This adds a **predictive layer** to traditional analytics, helping organizations proactively address workforce challenges.
+Key challenges include:
 
----
+- Identifying **salary distribution** patterns  
+- **Predicting income trends**  
+- Examining how factors like age, job role, and department influence earnings
 
-## How to Open the Project
-
-1. Download and install **Tableau Desktop** or **Tableau Public**
-2. Open the `HR_Analytics_Dashboard.twbx` file
-3. Make sure all three Excel files are in the **same directory** as the workbook:
-   - `HR_Data_Cleaned_Table_1.xlsx`
-   - `HR_Data_Cleaned_Table_2.xlsx`
-   - `HR_Data_Cleaned_Table_3.xlsx`
-4. Tableau will automatically join them as per the original schema
-5. Interact with filters (e.g., Gender, Age Distribution)
-6. Review the forecasting graph under **Attrition Rate Over Time**
+Through data visualization in Tableau, Yello aims to **uncover actionable insights into salary dynamics and workforce composition**.
 
 ---
 
-## Key Insights
+## 🎯 Aims of the Project
 
-✅ 16% Attrition Rate  
-✅ Highest attrition in Sales department  
-✅ R&D has the highest employee count but lower attrition  
-✅ Forecast predicts a spike in attrition by 2024  
-✅ Males represent 60%+ of the workforce  
-✅ Managers earn the highest income across job roles  
-✅ Age and income patterns reveal strategic talent gaps  
+- 📈 Forecast **Attrition Trends**
+- 📊 Identify **KPIs** such as average monthly income and attrition rate
+- 👥 Analyze **Monthly Income by Age and Job Role**
+- 💼 Compare **Salary Distribution Across Employees**
 
 ---
 
-## Key Recommendations
+## 📁 Files Included
 
-1. **Strengthen Retention in Sales**  
-   - Sales shows the highest attrition rate (21%). Offer exit interviews, retention bonuses, and flexible schedules.
-
-2. **Monitor Forecasted Attrition**  
-   - Attrition is expected to spike in 2024. Begin succession planning and manager training now.
-
-3. **Improve Gender Balance**  
-   - Gender distribution skews male. Promote inclusive hiring practices.
-
-4. **Focus on Mid-Age Talent**  
-   - Invest in career development for employees aged 25–44.
-
-5. **Optimize High-Income Roles**  
-   - Ensure productivity of high-income roles like Managers and Directors.
-
-6. **Leverage Departmental Strengths**  
-   - Use R&D as a model department for best practices.
+| File                          | Description                                                  |
+|------------------------------|--------------------------------------------------------------|
+| `HR_Analytics_Dashboard.twbx`| Packaged Tableau Workbook with full dashboard               |
+| `HR_Data_Cleaned_Table_1.xlsx`| Cleaned Excel data source (Table 1)                          |
+| `HR_Data_Cleaned_Table_2.xlsx`| Cleaned Excel data source (Table 2)                          |
+| `HR_Data_Cleaned_Table_3.xlsx`| Cleaned Excel data source (Table 3)                          |
+| `Dashboard_Screenshot.png`    | Static preview of dashboard                                 |
+| `README.md`                   | This documentation file                                     |
 
 ---
 
-## Data Source
+## 📉 Forecasting & Predictive Analysis
 
-Dataset modeled after **IBM HR sample data**, anonymized for educational use.  
-Use case: Employee Attrition, Workforce Planning, Predictive HR Analytics.
+The dashboard includes models using Tableau’s **native exponential smoothing** for forecasting:
 
----
-
-## Acknowledgements
-
-- **Tableau** for analytics and forecasting
-- **IBM HR data** for inspiration
-- Designed for training and portfolio-building purposes
+- Forecast **monthly attrition rate projections**
+- Anticipate **future spikes/drops** in attrition
+- Empower HR decisions with **data-driven insights**
 
 ---
 
-## License
+## ⚠️ Disclaimer
 
-This project is for portfolio and educational display only.  
+This project is for **portfolio and educational display only**.  
 No content may be copied, reproduced, or reused without permission.
+
+---
+
+## 🔗 Connect With Me
+
+- 💼 LinkedIn: [linkedin.com/in/desireesalvant](https://www.linkedin.com/in/desireesalvant)
+- 🌐 GitHub: [github.com/DesireeSalvant](https://github.com/DesireeSalvant)
+- 🌍 Portfolio: [desireesalvant.com](https://www.desireesalvant.com) *(Coming soon!)*
+- 📊 Tableau Public: [View My Tableau Public Projects](https://public.tableau.com/app/profile/desiree.salvant)
+
