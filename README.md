@@ -1,4 +1,4 @@
-# hr-analytics-dashboard
+## hr-analytics-dashboard
 
 Tableau HR analytics dashboard with attrition forecasting and demographic insights using a data sample from Yello.
 
@@ -197,11 +197,13 @@ The schema used for this analysis was not sourced from a SQL database, but a sim
 - Investigate causes of low job satisfaction among specific job roles and demographics.
 - Consider targeted employee development in job levels with high attrition and lower satisfaction.
 - Expand data inputs with exit interview responses, manager feedback, and external benchmarks for richer predictive models.
+  
 
-  ## Disclaimer
+## Disclaimer
 
 This project is for portfolio and educational display only.  
 No content may be copied, reproduced, or reused without permission.
+
 
 
 **Connect With Me**
