@@ -1,4 +1,4 @@
-## hr-analytics-dashboard
+#### HR Analytics Dashboard
 
 Tableau HR analytics dashboard with attrition forecasting and demographic insights using a data sample from Yello.
 
